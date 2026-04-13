@@ -29,7 +29,7 @@ Built with **vanilla JavaScript**, focusing on API usage, DOM manipulation, and 
 - JavaScript (ES6)
 - Fetch API
 
----
+
 
 
 
