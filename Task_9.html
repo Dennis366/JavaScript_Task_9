@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON API Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            text-align: center;
+        }
+        img {
+            max-width: 500px;
+            height: auto;
+        }
+        .container {
+            display: block;
+            gap: 20px;
+            justify-content: center;
+            justify-items: center;
+        }
+        #info {
+            margin-top: 20px;
+            font-size: 1em;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <h1>Pokemon (Json Api test)</h1>
+​
+    <div class="container">
+        <div>
+            <Label>Select a Pokemon:</Label>
+            <select id="dropdown" title="Select a Pokemon">
+                <option value="">-- choose --</option>
+            </select>
+        </div>        
+        <div>
+            <img id="image" src="" alt="Pokemons picture" title="Click to toggle sprite" style="display:none;">
+            <span id = "noPicture">Choose something </span>
+        </div>
+        <div id="info"></div>
+    </div>
+        
+    <script src="JsonRestPokemon.js"></script>
+</body>
+</html>
